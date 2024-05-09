@@ -1,0 +1,17 @@
+<div class="container mt-3"> 
+    <h2>Empleados</h2> 
+   
+    @for(item of empleado; track item){ 
+    <div class="card"> 
+        <h4>DATOS</h4>
+      <div class="card-body">
+        Nombre: {{item.name.first}} <br>
+        Apellido: {{item.name.last}} <br>
+        Ciudad: {{item.location.city}} <br>
+        Descripción: {{item.location.timezone.description}} <br>
+    </div>  
+    <h4>Foto empleado</h4>
+    <div class="card-body"><img src="{{item.picture.medium}}"></div> 
+    </div> 
+  } 
+  </div> 

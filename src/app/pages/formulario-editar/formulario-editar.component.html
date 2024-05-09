@@ -1,0 +1,16 @@
+<form (ngSubmit)="editar(formulario)" #formulario = "ngForm">
+    <label>Ingresar ID</label>
+    <input type="text" name="id" [(ngModel)]="id" class="form-control">
+
+    <label>Ingresar Marca</label>
+    <input type="text" name="marca" [(ngModel)]="marca" class="form-control">
+
+    <label>Ingresar Color</label>
+    <input type="text" name="color" [(ngModel)]="color" class="form-control">
+
+    <label>Ingresar Precio</label>
+    <input type="number" name="precio" [(ngModel)]="precio" class="form-control">
+
+    <br>
+    <button type="submit" class="btn btn-success">Guardar</button>
+</form>

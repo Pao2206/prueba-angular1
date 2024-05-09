@@ -1,0 +1,32 @@
+{
+  "autos": [
+    {
+      "id": "PAB-6770",
+      "marca": "Toyota Camry",
+      "color": "Celeste",
+      "precio": 50000,
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK4uXg9ahwAj8f3IFW6JHk6qd4SPpB08dTl4RYWoKl_A&s"
+    },
+    {
+      "id": "PKQ-0769",
+      "marca": "Toyota Supra",
+      "color": "Gris",
+      "precio": 65000,
+      "imagen": "https://cdn.motor1.com/images/mgl/ojbLG4/s1/2022-toyota-supra-2.0-review.jpg"
+    },
+    {
+      "id": "PDL-3265",
+      "marca": "Toyota Corolla",
+      "color": "Rojo",
+      "precio": 40000,
+      "imagen": "https://www.usnews.com/object/image/0000018c-5f0b-dc6c-aded-ffbf2d960000/https-cars-dms-usnews-com-static-uploads-images-auto-custom-15294-original-2024-toyota-corolla-angular-front-1.jpg?update-time=1693333947000&size=responsiveGallery"
+    },
+    {
+      "id": "PQI-8967",
+      "marca": "Toyota Tacoma",
+      "color": "Naranja",
+      "precio": 140000,
+      "imagen": "https://www.motortrend.com/uploads/2023/05/2023-Toyota-Tacoma-TRD-Pro-Solar-Octane-front-view-1.jpg?fit=around%7C551:374"
+    }
+  ]
+}
