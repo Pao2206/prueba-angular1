@@ -25,4 +25,6 @@ editar(datos: any){
 
   }
 
+  
+
 }

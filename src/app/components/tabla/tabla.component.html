@@ -1,3 +1,13 @@
+<div class="container">
+<div class="col-md-12">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="form-group">
+        <label for="filtro">Busqueda por Placa</label>
+        <input type="text" class="form-control" [(ngModel)]='filtro'>
+        <button class="btn btn-danger" (click)="runFiltro(id)">Filtrar</button>
+      </div>
+    </div>
 <table class="table table-hover">
     <thead>
       <tr>
@@ -23,3 +33,4 @@
       }
     </tbody>
   </table>
+</div>
